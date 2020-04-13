@@ -86,13 +86,13 @@ int main()
     glDeleteShader(fragmentShader);
     float vertices[] = {
 
-        -0.9f, -0.5f, 0.0f,
-        -0.0f, -0.5f, 0.0f,
-        -0.45f, 0.5f, 0.0f,
+        -0.9f, -1.0f, 0.0f,
+         0.9f, -1.0f, 0.0f,
+         0.0f,  0.0f, 0.0f,
 
-         0.0f, -0.5f, 0.0f,
-         0.9f, -0.5f, 0.0f,
-         0.45f, 0.5f, 0.0f
+        -0.9f, 1.0f, 0.0f,
+         0.9f, 1.0f, 0.0f,
+         0.0f, 0.0f, 0.0f
     };
 
     unsigned int VBO, VAO;
@@ -118,7 +118,7 @@ int main()
         processInput(window);
 
 
-        glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+        glClearColor((float)glfwGetTime()*0.2f, glfwGetTime()*0.3f, 0.4f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
 
