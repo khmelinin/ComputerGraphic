@@ -1,5 +1,5 @@
-#include "C:\Users\AdmiN\source\repos\khmelinin\ComputerGraphic\Lab3\include\glad/glad.h"
-#include <C:\Users\AdmiN\Desktop\glfw-3.3.2\include\GLFW/glfw3.h>
+#include "C:\Users\AdmiN\source\repos\khmelinin\ComputerGraphic\Lab3\include\glad\glad.h"
+#include <C:\Users\AdmiN\source\repos\khmelinin\ComputerGraphic\glfw-3.3.2\include\GLFW\glfw3.h>
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
